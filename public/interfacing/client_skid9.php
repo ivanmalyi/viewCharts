@@ -1,72 +1,68 @@
 <?php
 /*
-<br/>
-10.05.18 старт  <br/>
-06.06.18 почти финиш тестирование  <br/>
-скрипт приема от SKID 9 и <br/>
-записи в БД  <br/>
-skid9.php на 10.3.2.19/html/  БД kip  таблица skid9    <br/>
-<br/>
-*/
-
-
-//
-/*
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 */
 
+$dataString=$_POST['dataString'];
+$date=$_POST['date'];
 
-header("Content-Type: text/html; charset=koi-8");
-include "db_inc.php";
+$PDO = connection(); // подключение к БД
+writeData($PDO, $dataString, $date); //запись в БД
 
-$k1 = $_POST['k1'];
-$k2 = $_POST['k2'];
-$k3 = $_POST['k3'];
-$k4 = $_POST['k4'];
-$k5 = $_POST['k5'];
-$t_var = $_POST['t_var'];
-$ves_var = $_POST['ves_var'];
-$b1 = $_POST['b1'];
-$b2 = $_POST['b2'];
-$b3 = $_POST['b3'];
-$speed = $_POST['speed'];
-$strock_t = $_POST['strock_t'];
-$date = $_POST['dd'];
+//создается подключение к базе данных
+function connection(): \PDO
+{
+    $dsn = 'mysql:dbname=kip;port=3306;host=134.249.188.218';
+    $user = 'tom';
+    $password = 'tom';
 
+    try {
+        $PDO = new PDO($dsn, $user, $password);
+        $PDO->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        $PDO->exec("SET NAMES utf8");
+        $PDO->exec("SET character set utf8");
+        $PDO->exec("SET character_set_connection='utf8'");
 
- $query_t = "INSERT INTO `skid9` ( date, 
-        k1, 
-        k2, 
-        k3,
-        k4,
-        k5,
-        t_var,
-        ves_var,
-        b1,
-        b2,
-        b3,
-        speed,
-        string)
-        VALUES ('$date',
-        '$k1',
-        '$k2' ,
-        '$k3' ,
-        '$k4' ,
-        '$k5' ,
-        '$t_var' ,
-        '$ves_var' , 
-        '$b1' ,
-        '$b2' ,
-        '$b3' ,
-        '$speed' , 
-        '$strock_t');"; 
-  //   echo ($query_t);
-//echo ("<br/>");   
-$result_t = mysqli_query($link,$query_t) or die("Query failed : " . mysqli_error($link));	
+        return $PDO;
+    } catch (\PDOException $e) {
+        echo $e->getMessage() . "\n";
+        echo $e->getLine();
 
+        return $PDO = null;
+    }
+}
 
-//echo "$result_t"."<br>";
-//echo "@link  ".$link.<br>
-mysqli_close($link);
+//записываются данные в таблицу
+function writeData(PDO $PDO, string $dataString, string $date)
+{
+    $dataArray = explode('$', $dataString);
+
+    $sql = 'INSERT INTO skid9 (date, k1, k2, k3, k4, k5, t_var, ves_var, b1, b2, b3, speed, string)
+        VALUES (:date, :k1, :k2, :k3, :k4, :k5, :t_var, :ves_var, :b1, :b2, :b3, :speed, :string)';
+
+    try {
+        $payments = $PDO->prepare($sql);
+
+        $payments->bindParam(':date', $date, PDO::PARAM_STR);
+        $payments->bindParam(':k1',  $dataArray[0], PDO::PARAM_INT);
+        $payments->bindParam(':k2',  $dataArray[1], PDO::PARAM_INT);
+        $payments->bindParam(':k3',  $dataArray[2], PDO::PARAM_INT);
+        $payments->bindParam(':k4',  $dataArray[3], PDO::PARAM_INT);
+        $payments->bindParam(':k5',  $dataArray[4], PDO::PARAM_INT);
+        $payments->bindParam(':t_var',  $dataArray[5], PDO::PARAM_INT);
+        $payments->bindParam(':ves_var',  $dataArray[6], PDO::PARAM_INT);
+        $payments->bindParam(':b1',  $dataArray[7], PDO::PARAM_INT);
+        $payments->bindParam(':b2',  $dataArray[8], PDO::PARAM_INT);
+        $payments->bindParam(':b3',  $dataArray[9], PDO::PARAM_INT);
+        $payments->bindParam(':speed',  $dataArray[10], PDO::PARAM_INT);
+        $payments->bindParam(':string',  $dataString, PDO::PARAM_STR);
+
+        $payments->execute();
+    } catch (\PDOException $e) {
+        echo $e->getMessage() . "\n";
+        echo $e->getLine();
+        $firstPay = null;
+    }
+}
