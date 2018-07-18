@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Данные с производственных линий</title>
+
+    {% block stylesheets %}
+        <link href="{{ asset("base/vendor/bootstrap/css/bootstrap.min.css") }}" rel="stylesheet" />
+        <link href="{{ asset("base/css/simple-sidebar.css") }}" rel="stylesheet" />
+        <link href="{{ asset('datapicker/calendarStyle.css') }}" rel="stylesheet" />
+    {% endblock %}
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <!-- Sidebar -->
+        {% include "sidebar.html.twig" %}
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content  Посмотр характеристик производственной линии-->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="text-center">
+                    <h1>Данные с производственных линий</h1>
+                </div>
+                <br>
+                <br>
+                <br>
+                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Открыть меню</a>
+            </div>
+            <br>
+            <br>
+            {% block content %}
+            <div class="text-center">
+                <a href="{{ path("tables",  {'nameLine': 'Skid10'}) }}">
+                    <img class="rounded" src="{{ asset('images/Skid10.png') }} " title="Промсмотр линии Kid10" />
+                </a>
+                <p><code>Kid10</code></p>
+            </div>
+            {% endblock %}
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+
+    {% block javascripts %}
+        <script src="{{ asset("base/vendor/jquery/jquery.min.js") }}"></script>
+        <script src="{{ asset("base/vendor/bootstrap/js/bootstrap.bundle.min.js") }}"></script>
+        <script src="{{ asset('base/mainPage.js') }}"></script>
+        <script src="{{ asset('charts/code/highcharts.js') }}"></script>
+        <script src="{{ asset('charts/code/modules/series-label.js') }}"></script>
+        <script src="{{ asset('charts/code/modules/exporting.js') }}"></script>
+        <script src="{{ asset('datapicker/cal.js') }}"></script>
+    {% endblock %}
+
+    <!-- Menu Toggle Script -->
+    {% block chart %}
+
+    {% endblock %}
+
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+{% extends "base.html.twig" %}
+
+{% block chart %}
+    <br>
+    {% set vars = {'nameLine': nameLine, 'id':id} %}
+    {% include "charts/inputDate.html.twig" with vars%}
+
+    <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+    <script type="text/javascript">
+
+        Highcharts.chart('container', {
+            chart: {
+                zoomType: 'x'
+            },
+            title: {
+                text: "{{  parametersChart.getAlias }}"
+            },
+            subtitle: {
+                text: "{{  parametersChart.getNameZone }}"
+            },
+            xAxis: {
+                type: 'datetime',
+                title: {
+                    text: 'Время'
+                }
+            },
+            yAxis: {
+                title: {
+                    text: 'Еденицы изм.'
+                },
+                min: -5
+            },
+            tooltip: {
+                headerFormat: '<b>{series.name}</b><br>',
+                formatter: function() {
+                    return '' +
+                        Highcharts.dateFormat('%e %B %H:%M', this.x)+ '  |  ' + Highcharts.numberFormat(this.y, 1);
+                }
+                //headerFormat: '<b>{series.name}</b><br>',
+               // pointFormat: '{point.x:%e. %b}: {point.y:.1f} m'
+            },
+
+            plotOptions: {
+                spline: {
+                    marker: {
+                        enabled: true
+                    }
+                }
+            },
+
+            colors: ['#6CF', '#39F', '#06C', '#036', '#000'],
+
+            // Define the data points. All series have a dummy year
+            // of 1970/71 in order to be compared on the same x axis. Note
+            // that in JavaScript, months start at 0 for January, 1 for February etc.
+            series: [{
+                name: "{{ parametersChart.getNameValue1 }}",
+                data: {{ chart['chart1'] }}
+            }, {
+                name: "{{ parametersChart.getNameValue2 }}",
+                data: {{ chart['chart2'] }}
+            }, {
+                name: "{{ parametersChart.getNameValue3 }}",
+                data: {{ chart['chart3'] }}
+            }, {
+                name: "{{ parametersChart.getNameValue4 }}",
+                data: {{ chart['chart4'] }}
+            }]
+        });
+    </script>
+{% endblock %}
+
+{% block content %}
+{% endblock %}

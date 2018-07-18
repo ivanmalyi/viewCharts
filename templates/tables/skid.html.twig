@@ -1,0 +1,45 @@
+<table class="table table-hover table-bordered">
+    <thead>
+        <tr>
+            <th>Название зоны</th>
+            <th>Измеряемая величина</th>
+            <th>Показание</th>
+            <th>Просмотр графиков</th>
+        </tr>
+    </thead>
+    <tbody>
+    <th rowspan="5">Варка</th>
+        <tr>
+            <td>Температура варки</td>
+            <td>{{ dataForTable.getTVar/10 }}</td>
+            <td rowspan="5"><a class="btn btn-primary" href="{{  path("charts",{'nameLine': 'Skid10', 'id': '1'}) }}"
+                               role="button">График</a></td>
+        </tr>
+        <tr>
+            <td>Задание температуры варки</td>
+            <td>{{ dataForTable.getZad/10 }}</td>
+        </tr>
+        <tr>
+            <td>Скорость мешалки</td>
+            <td>{{ dataForTable.getSpeed/10 }}</td>
+        <tr>
+            <td>Вакуум</td>
+            <td>{{ dataForTable.getVakuum }}</td>
+        </tr>
+    <th rowspan="4">Сироп</th>
+        <tr>
+            <td>Текущая температура</td>
+            <td>{{ dataForTable.getTSirop/10 }}</td>
+            <td rowspan="4"><a class="btn btn-primary" href="{{  path("charts",{'nameLine': 'Skid10', 'id': '2'}) }}"
+                               role="button">График</a></td>
+        </tr>
+        <tr>
+            <td>Задание температуры</td>
+            <td>{{ dataForTable.getZadTSirop/10 }}</td>
+        </tr>
+        <tr>
+            <td>Текущая масса</td>
+            <td>{{ dataForTable.getPSirop/10 }}</td>
+        </tr>
+    </tbody>
+</table>

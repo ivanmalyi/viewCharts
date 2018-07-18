@@ -1,0 +1,14 @@
+<div class="input-group mb-3">
+    <div class="col-sm-3"></div>
+    <form action="{{  path("charts",{'nameLine': nameLine, 'id': id}) }}" method="get" >
+        <div class="input-group-prepend mb-5">
+            <span class="input-group-text" id="basic-addon1">From</span>
+            <input id="startTime" name="startTime" type="text" class="form-control" placeholder="Начальная дата" aria-label="Username" aria-describedby="basic-addon1">
+            <div class="col-md-1"></div>
+            <span class="input-group-text" id="basic-addon2">To</span>
+            <input id="endTime" name="endTime" type="text" class="form-control" placeholder="Конечная дата" aria-label="Username" aria-describedby="basic-addon2">
+            <div class="col-sm"></div>
+            <input class="btn btn-secondary" type="submit" value="Получить данные" />
+        </div>
+    </form>
+</div>

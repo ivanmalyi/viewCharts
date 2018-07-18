@@ -1,0 +1,9 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% if nameLine == 'Skid10' %}
+        <div id="tableSkid">
+            {{ render(controller('App\\Controller\\TableController::updateTable', {'nameLine':'Skid10'})) }}
+        </div>
+    {% endif %}
+{% endblock %}
