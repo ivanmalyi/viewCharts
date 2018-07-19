@@ -77,7 +77,7 @@ class Skid9
     private $speed;
 
     /**
-     * @ORM\Column(type="string", length=255, nullable=true)
+     * @ORM\Column(name="string", type="string", length=255, nullable=true)
      */
     private $response;
 

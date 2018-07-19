@@ -2,6 +2,7 @@
 
 namespace App\Repository;
 
+use App\Entity\DatePeriod;
 use App\Entity\Skid9;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Symfony\Bridge\Doctrine\RegistryInterface;
@@ -19,32 +20,41 @@ class Skid9Repository extends ServiceEntityRepository
         parent::__construct($registry, Skid9::class);
     }
 
-//    /**
-//     * @return Skid9[] Returns an array of Skid9 objects
-//     */
-    /*
-    public function findByExampleField($value)
+    /**
+     * @throws \Doctrine\ORM\NonUniqueResultException
+     */
+    public function findLastData()
     {
-        return $this->createQueryBuilder('s')
-            ->andWhere('s.exampleField = :val')
-            ->setParameter('val', $value)
-            ->orderBy('s.id', 'ASC')
-            ->setMaxResults(10)
+        $queryBuilder = $this->createQueryBuilder('skid9')
+            ->select('skid9')
+            ->orderBy('skid9.id', 'DESC')
+            ->setMaxResults(1)
             ->getQuery()
-            ->getResult()
-        ;
-    }
-    */
+            ->getOneOrNullResult();
 
-    /*
-    public function findOneBySomeField($value): ?Skid9
-    {
-        return $this->createQueryBuilder('s')
-            ->andWhere('s.exampleField = :val')
-            ->setParameter('val', $value)
-            ->getQuery()
-            ->getOneOrNullResult()
-        ;
+        $this->prepareDataForTable($queryBuilder);
+
+        return $queryBuilder;
     }
-    */
+
+
+    private function prepareDataForTable(Skid9 $skid9)
+    {
+        $interval = time() - $skid9->getDate()->getTimestamp();
+
+        if ($interval > 60) {
+            $skid9->setK1(0);
+            $skid9->setK2(0);
+            $skid9->setK3(0);
+            $skid9->setK4(0);
+            $skid9->setK5(0);
+            $skid9->setTVar(0);
+            $skid9->setVesVar(0);
+            $skid9->setB1(0);
+            $skid9->setB2(0);
+            $skid9->setB3(0);
+            $skid9->setSpeed(0);
+            $skid9->setResponse('');
+        }
+    }
 }

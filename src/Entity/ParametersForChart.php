@@ -28,11 +28,6 @@ class ParametersForChart
     private $alias;
 
     /**
-     * @ORM\Column(type="string", length=50, nullable=true)
-     */
-    private $countCharts;
-
-    /**
      * @ORM\Column(type="string", length=100, nullable=true)
      */
     private $nameZone;
@@ -82,18 +77,6 @@ class ParametersForChart
     public function setAlias(?string $alias): self
     {
         $this->alias = $alias;
-
-        return $this;
-    }
-
-    public function getCountCharts(): ?string
-    {
-        return $this->countCharts;
-    }
-
-    public function setCountCharts(?string $countCharts): self
-    {
-        $this->countCharts = $countCharts;
 
         return $this;
     }

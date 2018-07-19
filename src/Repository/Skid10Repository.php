@@ -93,6 +93,8 @@ class Skid10Repository extends ServiceEntityRepository
             ->getQuery()
             ->getOneOrNullResult();
 
+        $this->prepareDataForTable($queryBuilder);
+
         return $queryBuilder;
     }
 
@@ -139,6 +141,22 @@ class Skid10Repository extends ServiceEntityRepository
             'chart3' => json_encode($this->chart3),
             'chart4' => json_encode($this->chart4)
         ];
+    }
+
+    private function prepareDataForTable(Skid10 $skid10)
+    {
+        $interval  = time() - $skid10->getDate()->getTimestamp();
+
+        if ($interval > 60) {
+            $skid10->setPSirop(0);
+            $skid10->setSpeed(0);
+            $skid10->setTSirop(0);
+            $skid10->setTVar(0);
+            $skid10->setVakuum(0);
+            $skid10->setZad(0);
+            $skid10->setZadTSirop(0);
+            $skid10->setResponse('');
+        }
     }
 
     /**
