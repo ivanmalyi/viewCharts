@@ -4,7 +4,13 @@
             <th>Название зоны</th>
             <th>Измеряемая величина</th>
             <th>Показание</th>
-            <th>Просмотр графиков</th>
+            <th>
+                {% if dataForTable.getResponse == '' %}
+                    <img class="rounded" src="{{ asset('images/wi-fi_off.jpg') }} " title="Нет связи с линией" />
+                {% else %}
+                    <img class="rounded" src="{{ asset('images/wi-fi_on.jpg') }} " title="Есть связь" />
+                {% endif %}
+            </th>
         </tr>
     </thead>
     <tbody>
