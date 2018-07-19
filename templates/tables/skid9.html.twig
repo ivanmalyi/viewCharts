@@ -14,38 +14,61 @@
         </tr>
     </thead>
     <tbody>
-    <th rowspan="5">Варка</th>
+    <th rowspan="7">Компоненты</th>
         <tr>
-            <td>Температура варки</td>
-            <td>{{ dataForTable.getTVar/10 }}</td>
+            <td>К1</td>
+            <td>{{ dataForTable.getK1/10 }}</td>
             <td rowspan="5"><a class="btn btn-primary" href="{{  path("charts",{'nameLine': 'Skid9', 'id': '3'}) }}"
                                role="button">График</a></td>
         </tr>
         <tr>
-            <td>Задание температуры варки</td>
-            <td>{{ dataForTable.getZad/10 }}</td>
+            <td>К2</td>
+            <td>{{ dataForTable.getK2/10 }} кг</td>
         </tr>
         <tr>
-            <td>Скорость мешалки</td>
-            <td>{{ dataForTable.getSpeed/10 }}</td>
+            <td>К3</td>
+            <td>{{ dataForTable.getK3/10 }} кг</td>
         <tr>
-            <td>Вакуум</td>
-            <td>{{ dataForTable.getVakuum }}</td>
+            <td>К4</td>
+            <td>{{ dataForTable.getK4/10 }} кг</td>
+        </tr>
+        <tr>
+            <td>К5</td>
+            <td>{{ dataForTable.getK5/10 }} кг</td>
+        </tr>
+        <tr>
+            <td>Общий вес</td>
+            <td>{{ dataForTable.getK1/10 + dataForTable.getK2/10 + dataForTable.getK3/10 + dataForTable.getK4/10 + dataForTable.getK5/10 }} кг</td>
         </tr>
     <th rowspan="4">Сироп</th>
         <tr>
             <td>Текущая температура</td>
-            <td>{{ dataForTable.getTSirop/10 }}</td>
+            <td>{{ dataForTable.getTVar/10 }} °C</td>
             <td rowspan="4"><a class="btn btn-primary" href="{{  path("charts",{'nameLine': 'Skid9', 'id': '4'}) }}"
                                role="button">График</a></td>
         </tr>
         <tr>
-            <td>Задание температуры</td>
-            <td>{{ dataForTable.getZadTSirop/10 }}</td>
+            <td>Текущая масса</td>
+            <td>{{ dataForTable.getVesVar/10 }} кг</td>
         </tr>
         <tr>
-            <td>Текущая масса</td>
-            <td>{{ dataForTable.getPSirop/10 }}</td>
+            <td>Мешалка варки</td>
+            <td>{{ dataForTable.getSpeed/10 }} %</td>
         </tr>
+    <th rowspan="4">Буфер</th>
+    <tr>
+        <td>B1</td>
+        <td>{{ dataForTable.getB1/10 }} кг</td>
+        <td rowspan="4"><a class="btn btn-primary" href="{{  path("charts",{'nameLine': 'Skid9', 'id': '5'}) }}"
+                           role="button">График</a></td>
+    </tr>
+    <tr>
+        <td>B2</td>
+        <td>{{ dataForTable.getB2/10 }} кг</td>
+    </tr>
+    <tr>
+        <td>B3</td>
+        <td>{{ dataForTable.getB3/10 }} кг</td>
+    </tr>
     </tbody>
 </table>
