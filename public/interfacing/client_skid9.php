@@ -14,9 +14,9 @@ writeData($PDO, $dataString, $date); //запись в БД
 //создается подключение к базе данных
 function connection(): \PDO
 {
-    $dsn = 'mysql:dbname=kip;port=3306;host=134.249.188.218';
-    $user = 'tom';
-    $password = 'tom';
+    $dsn = 'mysql:dbname=kip;host=localhost';
+    $user = 'root';
+    $password = 'tom';;
 
     try {
         $PDO = new PDO($dsn, $user, $password);
