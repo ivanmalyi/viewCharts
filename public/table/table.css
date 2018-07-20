@@ -1,0 +1,13 @@
+.green-row {
+    background-color: rgba(165, 255, 157, 0.27);
+}
+
+.red-row {
+    background-color: rgba(255, 0, 11, 0.11);
+}
+
+.name-table {
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 119, 182, 0.18);
+    font-size: 350%;
+    color: rgba(0, 110, 214, 0.61);
+}

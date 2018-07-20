@@ -1,4 +1,7 @@
-<table class="table table-hover table-bordered">
+<h2 class="text-center name-table"> K I D 10</h2>
+<br>
+<br>
+<table class="table table-bordered">
     <thead>
         <tr>
             <th>Название зоны</th>
@@ -16,36 +19,36 @@
     <tbody>
     <th rowspan="5">Варка</th>
         <tr>
-            <td>Температура варки</td>
-            <td>{{ dataForTable.getTVar/10 }} °C</td>
+            <td class="green-row">Температура варки</td>
+            <td class="green-row">{{ dataForTable.getTVar/10 }} °C</td>
             <td rowspan="5"><a class="btn btn-primary" href="{{  path("charts",{'nameLine': 'Skid10', 'id': '1'}) }}"
                                role="button">График</a></td>
         </tr>
-        <tr>
+        <tr class="red-row">
             <td>Задание температуры варки</td>
             <td>{{ dataForTable.getZad/10 }} °C</td>
         </tr>
-        <tr>
+        <tr class="green-row">
             <td>Скорость мешалки</td>
             <td>{{ dataForTable.getSpeed/10 }} %</td>
-        <tr>
+        <tr class="red-row">
             <td>Вакуум</td>
             <td>{{ dataForTable.getVakuum }} бар</td>
         </tr>
     <th rowspan="4">Сироп</th>
         <tr>
-            <td>Текущая температура</td>
-            <td>{{ dataForTable.getTSirop/10 }} °C</td>
+            <td class="green-row">Текущая температура</td>
+            <td class="green-row">{{ dataForTable.getTSirop/10 }} °C</td>
             <td rowspan="4"><a class="btn btn-primary" href="{{  path("charts",{'nameLine': 'Skid10', 'id': '2'}) }}"
                                role="button">График</a></td>
         </tr>
-        <tr>
+        <tr class="red-row">
             <td>Задание температуры</td>
             <td>{{ dataForTable.getZadTSirop/10 }} °C</td>
         </tr>
-        <tr>
+        <tr class="green-row">
             <td>Текущая масса</td>
-            <td>{{ dataForTable.getPSirop/10 }} кг</td>
+            <td>{{ dataForTable.getPSirop/10 }} ru</td>
         </tr>
     </tbody>
 </table>

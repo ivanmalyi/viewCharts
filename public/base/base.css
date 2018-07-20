@@ -1,0 +1,31 @@
+H1 {
+    text-shadow: 1px 1px 1px silver,
+    -1px 1px 1px silver;
+    color: deepskyblue;
+    transition: all .5s;
+}
+h1:hover {
+    text-shadow: -1px -1px 1px silver,
+    1px -1px 1px silver;
+    color: lightblue;
+}
+
+.base-icon-font {
+
+    text-shadow: -1px -1px #000,
+    0 1px 0 #444;
+    color: limegreen;
+    transition: all 1s;
+    font-size: 200%;
+}
+
+.base-icon-font:hover {
+    text-shadow: -1px -1px #000,
+    0 1px 0 #444;
+    color: darkgreen;
+}
+
+.back-style {
+    background-color: rgba(242, 244, 255, 0.34);
+}
+

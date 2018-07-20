@@ -14,11 +14,13 @@
         <link href="{{ asset("base/vendor/bootstrap/css/bootstrap.min.css") }}" rel="stylesheet" />
         <link href="{{ asset("base/css/simple-sidebar.css") }}" rel="stylesheet" />
         <link href="{{ asset('datapicker/calendarStyle.css') }}" rel="stylesheet" />
+        <link href="{{ asset('base/base.css') }}" rel="stylesheet" />
+        <link href="{{ asset('table/table.css') }}" rel="stylesheet" />
     {% endblock %}
 
 </head>
 
-<body>
+<body class="back-style">
 
     <div id="wrapper">
         <!-- Sidebar -->
@@ -39,16 +41,31 @@
             <br>
             <br>
             {% block content %}
-            <div class="text-center">
-                <a href="{{ path("tables",  {'nameLine': 'Skid10'}) }}">
-                    <img class="rounded" src="{{ asset('images/Skid10.png') }} " title="Промсмотр линии Kid10" />
-                </a>
-                <p><code>Kid10</code></p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <a href="{{ path("tables", {'nameLine': 'Skid10'}) }}">
+                            <img class="rounded-circle" src="{{ asset('images/Skid10.jpg') }} " title="Просмотр линии Kid10" />
+                        </a>
+                        <p class="base-icon-font"># K i d  10 #</p>
+                    </div>
+
+                    <div class="col-sm">
+                        <a href="{{ path("tables", {'nameLine': 'Skid9'}) }}">
+                            <img class="rounded-circle"  src="{{ asset('images/Skid9.png') }} " title="Просмотр линии Kid9" />
+                        </a>
+                        <p class="base-icon-font"># K i d  9 #</p>
+                    </div>
+
+                    <div class="col-sm">
+                            <img class="rounded-circle"  src="{{ asset('images/line.png') }} " title="Просмотр линии" />
+                        <p class="base-icon-font"># L i n e  7 #</p>
+                    </div>
+                </div>
             </div>
             {% endblock %}
         </div>
         <!-- /#page-content-wrapper -->
-
     </div>
     <!-- /#wrapper -->
 

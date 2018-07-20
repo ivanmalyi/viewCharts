@@ -40,11 +40,20 @@ class Skid9Repository extends ServiceEntityRepository
      */
     private $chart5 = [];
 
+    /**
+     * Skid9Repository constructor.
+     * @param RegistryInterface $registry
+     */
     public function __construct(RegistryInterface $registry)
     {
         parent::__construct($registry, Skid9::class);
     }
 
+    /**
+     * @param int $id
+     * @param DatePeriod $datePeriod
+     * @return array
+     */
     public function findDataAboutPeriod(int $id, DatePeriod $datePeriod)
     {
         /*try {
@@ -87,6 +96,12 @@ class Skid9Repository extends ServiceEntityRepository
         return $queryBuilder;
     }
 
+    /**
+     * @param array $dataForSkid
+     * @param DatePeriod $datePeriod
+     * @param int $id
+     * @return array
+     */
     private function prepareDataForChart(array $dataForSkid, DatePeriod $datePeriod, int $id): array
     {
         $startTime =  \DateTime::createFromFormat('d-m-y H:i:s', $datePeriod->getStartDate())->getTimestamp();
@@ -169,6 +184,9 @@ class Skid9Repository extends ServiceEntityRepository
     }
 
 
+    /**
+     * @param Skid9 $skid9
+     */
     private function prepareDataForTable(Skid9 $skid9)
     {
         $interval = time() - $skid9->getDate()->getTimestamp();
