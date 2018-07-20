@@ -1,0 +1,78 @@
+<h2 class="text-center name-table"> K I D 9</h2>
+<br>
+<br>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Название зоны</th>
+            <th>Измеряемая величина</th>
+            <th>Показание</th>
+            <th>
+                {% if dataForTable.getResponse == '' %}
+                    <img class="rounded" src="{{ asset('images/wi-fi_off.jpg') }} " title="Нет связи с линией" />
+                {% else %}
+                    <img class="rounded" src="{{ asset('images/wi-fi_on.jpg') }} " title="Есть связь с линией" />
+                {% endif %}
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <th rowspan="7">Компоненты</th>
+        <tr>
+            <td class="green-row">К1</td>
+            <td class="green-row">{{ dataForTable.getK1/10 }} кг</td>
+            <td rowspan="6"><a class="btn btn-primary" href="{{  path("charts",{'nameLine': 'Skid9', 'id': '3'}) }}"
+                               role="button">График</a></td>
+        </tr>
+        <tr class="red-row">
+            <td>К2</td>
+            <td>{{ dataForTable.getK2/10 }} кг</td>
+        </tr>
+        <tr class="green-row">
+            <td>К3</td>
+            <td>{{ dataForTable.getK3/10 }} кг</td>
+        </tr>
+        <tr class="red-row">
+            <td>К4</td>
+            <td>{{ dataForTable.getK4/10 }} кг</td>
+        </tr>
+        <tr class="green-row">
+            <td>К5</td>
+            <td>{{ dataForTable.getK5/10 }} кг</td>
+        </tr>
+        <tr class="red-row">
+            <td>Общий вес</td>
+            <td>{{ dataForTable.getK1/10 + dataForTable.getK2/10 + dataForTable.getK3/10 + dataForTable.getK4/10 + dataForTable.getK5/10 }} кг</td>
+        </tr>
+    <th rowspan="4">Сироп</th>
+        <tr>
+            <td class="green-row">Текущая температура</td>
+            <td class="green-row">{{ dataForTable.getTVar/10 }} °C</td>
+            <td rowspan="4"><a class="btn btn-primary" href="{{  path("charts",{'nameLine': 'Skid9', 'id': '4'}) }}"
+                               role="button">График</a></td>
+        </tr>
+        <tr class="red-row">
+            <td>Текущая масса</td>
+            <td>{{ dataForTable.getVesVar/10 }} кг</td>
+        </tr>
+        <tr class="green-row">
+            <td>Мешалка варки</td>
+            <td>{{ dataForTable.getSpeed/10 }} %</td>
+        </tr>
+    <th rowspan="4">Буфер</th>
+    <tr>
+        <td class="red-row">B1</td>
+        <td class="red-row">{{ dataForTable.getB1/10 }} кг</td>
+        <td rowspan="4"><a class="btn btn-primary" href="{{  path("charts",{'nameLine': 'Skid9', 'id': '5'}) }}"
+                           role="button">График</a></td>
+    </tr>
+    <tr class="green-row">
+        <td>B2</td>
+        <td>{{ dataForTable.getB2/10 }} кг</td>
+    </tr>
+    <tr class="red-row">
+        <td>B3</td>
+        <td>{{ dataForTable.getB3/10 }} кг</td>
+    </tr>
+    </tbody>
+</table>
