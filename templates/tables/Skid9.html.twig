@@ -8,7 +8,7 @@
                 {% if dataForTable.getResponse == '' %}
                     <img class="rounded" src="{{ asset('images/wi-fi_off.jpg') }} " title="Нет связи с линией" />
                 {% else %}
-                    <img class="rounded" src="{{ asset('images/wi-fi_on.jpg') }} " title="Есть связь" />
+                    <img class="rounded" src="{{ asset('images/wi-fi_on.jpg') }} " title="Есть связь с линией" />
                 {% endif %}
             </th>
         </tr>
@@ -17,8 +17,8 @@
     <th rowspan="7">Компоненты</th>
         <tr>
             <td>К1</td>
-            <td>{{ dataForTable.getK1/10 }}</td>
-            <td rowspan="5"><a class="btn btn-primary" href="{{  path("charts",{'nameLine': 'Skid9', 'id': '3'}) }}"
+            <td>{{ dataForTable.getK1/10 }} кг</td>
+            <td rowspan="6"><a class="btn btn-primary" href="{{  path("charts",{'nameLine': 'Skid9', 'id': '3'}) }}"
                                role="button">График</a></td>
         </tr>
         <tr>

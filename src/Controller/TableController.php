@@ -37,7 +37,7 @@ class TableController extends Controller
                     ->findLastData();
 
                 $dataForTable['dataForTable'] = $skid10;
-                $dataForTable['nameTable'] = 'skid';
+                $dataForTable['nameTable'] = 'Skid10';
 
                 break;
 
@@ -46,7 +46,7 @@ class TableController extends Controller
                     ->findLastData();
 
                 $dataForTable['dataForTable'] = $skid9;
-                $dataForTable['nameTable'] = 'skid9';
+                $dataForTable['nameTable'] = 'Skid9';
 
                 break;
         }

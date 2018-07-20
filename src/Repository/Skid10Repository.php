@@ -99,11 +99,13 @@ class Skid10Repository extends ServiceEntityRepository
     }
 
     /**
-     * @param Skid10[] $dataForSkid
-     * @return array
-     *
      * Метод обязательно должен возвращать ассоциативный массив такого формата,
      * для корректности отображения графиков
+     *
+     * @param Skid10 [] $dataForSkid
+     * @param DatePeriod $datePeriod
+     * @param int $id
+     * @return array
      */
     private function prepareDataForChart(array $dataForSkid, DatePeriod $datePeriod, int $id): array
     {
@@ -139,10 +141,14 @@ class Skid10Repository extends ServiceEntityRepository
             'chart1' => json_encode($this->chart1),
             'chart2' => json_encode($this->chart2),
             'chart3' => json_encode($this->chart3),
-            'chart4' => json_encode($this->chart4)
+            'chart4' => json_encode($this->chart4),
+            'chart5' => json_encode([])
         ];
     }
 
+    /**
+     * @param Skid10 $skid10
+     */
     private function prepareDataForTable(Skid10 $skid10)
     {
         $interval  = time() - $skid10->getDate()->getTimestamp();

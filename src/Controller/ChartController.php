@@ -6,6 +6,7 @@ use App\Entity\DatePeriod;
 use App\Entity\ParametersForChart;
 use App\Entity\Skid10;
 
+use App\Entity\Skid9;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -46,10 +47,10 @@ class ChartController extends Controller
 
         return $this->render('charts/charts.html.twig', [
             'chart'=>$dataForChart ?? [],
-            'parametersChart'=>$parametersChart ?? [],
-            'nameLine'=>$nameLine,
-            'id'=>$id,
-            $message ?? ''
+            'parametersChart' => $parametersChart ?? [],
+            'nameLine' => $nameLine,
+            'id' => $id,
+            'message' => $message ?? ''
         ]);
     }
 
@@ -64,6 +65,11 @@ class ChartController extends Controller
         switch ($nameLine) {
             case 'Skid10':
                 $dataForCharts = $this->getDoctrine()->getRepository(Skid10::class)
+                    ->findDataAboutPeriod($id, $datePeriod);
+                break;
+
+            case 'Skid9':
+                $dataForCharts = $this->getDoctrine()->getRepository(Skid9::class)
                     ->findDataAboutPeriod($id, $datePeriod);
                 break;
         }

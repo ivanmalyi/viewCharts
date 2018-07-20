@@ -52,6 +52,11 @@ class ParametersForChart
      */
     private $nameValue4;
 
+    /**
+     * @ORM\Column(type="string", length=50, nullable=true)
+     */
+    private $nameValue5;
+
     public function getId()
     {
         return $this->id;
@@ -137,6 +142,18 @@ class ParametersForChart
     public function setNameValue4(?string $nameValue4): self
     {
         $this->nameValue4 = $nameValue4;
+
+        return $this;
+    }
+
+    public function getNameValue5(): ?string
+    {
+        return $this->nameValue5;
+    }
+
+    public function setNameValue5(?string $nameValue5): self
+    {
+        $this->nameValue5 = $nameValue5;
 
         return $this;
     }
