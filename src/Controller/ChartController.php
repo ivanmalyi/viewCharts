@@ -45,7 +45,7 @@ class ChartController extends Controller
         $message = $e->getMessage();
     }
 
-        return $this->render('charts/charts.html.twig', [
+        return $this->render('charts/irregularCharts.html.twig', [
             'chart'=>$dataForChart ?? [],
             'parametersChart' => $parametersChart ?? [],
             'nameLine' => $nameLine,
