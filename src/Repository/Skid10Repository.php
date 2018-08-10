@@ -142,7 +142,8 @@ class Skid10Repository extends ServiceEntityRepository
             'chart2' => json_encode($this->chart2),
             'chart3' => json_encode($this->chart3),
             'chart4' => json_encode($this->chart4),
-            'chart5' => json_encode([])
+            'chart5' => json_encode([]),
+            'pointStart' => $this->chart1[0]
         ];
     }
 
