@@ -42,39 +42,33 @@
             },
 
             plotOptions: {
-                spline: {
-                    marker: {
-                        enabled: true
+                area: {
+                    fillColor: {
+                        linearGradient: [0, 0, 0, 200],
+                        stops: [
+                            [0, '#4572A7'],
+                            [1, 'rgba(2,40,0,0)']
+                        ]
                     },
-                    area: {
-                        fillColor: {
-                            linearGradient: [0, 0, 0, 200],
-                            stops: [
-                                [0, '#4572A7'],
-                                [1, 'rgba(2,40,0,0)']
-                            ]
-                        },
-                        lineWidth: 1,
-                        marker: {
-                            enabled: false,
-                            states: {
-                                hover: {
-                                    enabled: true,
-                                    radius: 1
-                                }
-                            }
-                        },
-                        shadow: false,
+                    lineWidth: 1,
+                    marker: {
+                        enabled: false,
                         states: {
                             hover: {
-                                lineWidth: 2
+                                enabled: true,
+                                radius: 1
                             }
+                        }
+                    },
+                    shadow: false,
+                    states: {
+                        hover: {
+                            lineWidth: 2
                         }
                     }
                 }
-            },
 
-            colors: ['#6CF', '#39F', '#06C', '#036', '#000'],
+            },
 
             // Define the data points. All series have a dummy year
             // of 1970/71 in order to be compared on the same x axis. Note
