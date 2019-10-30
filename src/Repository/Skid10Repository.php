@@ -179,11 +179,7 @@ class Skid10Repository extends ServiceEntityRepository
             $skid10->setVakuum(-1);
             $skid10->setZad(random_int(0,1200));
             $skid10->setZadTSirop(random_int(0,1200));
-<<<<<<< HEAD
-            $skid10->setResponse('');
-=======
             $skid10->setResponse('#');
->>>>>>> 227a14424f796cba1157cd34752c58c2475e3b0a
         }
     }
 
