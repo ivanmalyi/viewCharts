@@ -177,8 +177,8 @@ class Skid10Repository extends ServiceEntityRepository
             $skid10->setTSirop(random_int(0,900));
             $skid10->setTVar(random_int(0,1200));
             $skid10->setVakuum(-1);
-            $skid10->setZad(andom_int(0,1200));
-            $skid10->setZadTSirop(andom_int(0,1200));
+            $skid10->setZad(random_int(0,1200));
+            $skid10->setZadTSirop(random_int(0,1200));
             $skid10->setResponse('');
         }
     }
