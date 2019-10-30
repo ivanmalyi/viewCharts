@@ -214,17 +214,17 @@ class Skid9Repository extends ServiceEntityRepository
         $interval = time() - $skid9->getDate()->getTimestamp();
 
         if ($interval > 60) {
-            $skid9->setK1(random_int(0,700));
-            $skid9->setK2(random_int(0,700));
-            $skid9->setK3(random_int(0,700));
-            $skid9->setK4(random_int(0,700));
-            $skid9->setK5(random_int(0,700));
-            $skid9->setTVar(random_int(0,1100));
-            $skid9->setVesVar(random_int(0,1600));
-            $skid9->setB1(random_int(0,600));
-            $skid9->setB2(random_int(0,600));
-            $skid9->setB3(random_int(0,600));
-            $skid9->setSpeed(random_int(0,700));
+            $skid9->setK1(random_int(680,700));
+            $skid9->setK2(random_int(680,700));
+            $skid9->setK3(random_int(680,700));
+            $skid9->setK4(random_int(680,700));
+            $skid9->setK5(random_int(680,700));
+            $skid9->setTVar(random_int(1080,1100));
+            $skid9->setVesVar(random_int(1580,1600));
+            $skid9->setB1(random_int(580,600));
+            $skid9->setB2(random_int(580,600));
+            $skid9->setB3(random_int(580,600));
+            $skid9->setSpeed(random_int(680,700));
             $skid9->setResponse('#');
         }
     }
