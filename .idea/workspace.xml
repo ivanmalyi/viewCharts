@@ -2,850 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fe7e7d8-3c9c-4da5-a96c-249294577842" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.env.dist" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/console" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/phpunit" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/bundles.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/dev/debug.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/dev/easy_log_handler.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/dev/monolog.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/dev/routing.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/dev/swiftmailer.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/dev/web_profiler.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/doctrine_migrations.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/prod/doctrine.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/routing.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/security.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/swiftmailer.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/test/monolog.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/test/swiftmailer.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/test/web_profiler.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/routes.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/routes/dev/twig.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/routes/dev/web_profiler.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/config/services.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/phpunit.xml.dist" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/.htaccess" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/css/simple-sidebar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/gulpfile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/mainPage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/package-lock.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/bootstrap/css/bootstrap-grid.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/bootstrap/css/bootstrap-grid.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/bootstrap/css/bootstrap-reboot.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/bootstrap/css/bootstrap-reboot.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/bootstrap/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/bootstrap/css/bootstrap.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/bootstrap/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/bootstrap/css/bootstrap.min.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/bootstrap/js/bootstrap.bundle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/bootstrap/js/bootstrap.bundle.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/bootstrap/js/bootstrap.bundle.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/bootstrap/js/bootstrap.bundle.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/bootstrap/js/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/bootstrap/js/bootstrap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/bootstrap/js/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/bootstrap/js/bootstrap.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/jquery/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/jquery/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/jquery/jquery.min.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/jquery/jquery.slim.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/jquery/jquery.slim.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/base/vendor/jquery/jquery.slim.min.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/css/highcharts.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/css/highcharts.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/css/themes/dark-unica.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/css/themes/grid-light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/css/themes/sand-signika.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/error.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/highcharts-3d.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/highcharts-more.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/highcharts.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/accessibility.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/annotations.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/boost-canvas.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/boost.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/broken-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/bullet.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/drag-panes.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/drilldown.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/export-data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/funnel.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/gantt.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/grid-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/heatmap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/histogram-bellcurve.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/item-series.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/no-data-to-display.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/offline-exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/oldie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/overlapping-datalabels.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/parallel-coordinates.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/pareto.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/pattern-fill.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/sankey.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/series-label.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/solid-gauge.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/static-scale.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/stock.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/streamgraph.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/sunburst.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/tilemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/treemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/variable-pie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/variwide.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/vector.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/windbarb.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/wordcloud.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/modules/xrange.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/themes/avocado.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/themes/avocado.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/themes/dark-blue.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/themes/dark-green.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/themes/dark-unica.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/themes/gray.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/themes/grid-light.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/themes/grid.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/themes/sand-signika.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/themes/skies.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/themes/sunset.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/masters/themes/sunset.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/mixins/ajax.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/mixins/centered-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/mixins/derived-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/mixins/draw-point.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/mixins/on-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/mixins/polygon.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/mixins/tree-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/a11y-i18n.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/annotations.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/bellcurve.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/boost-canvas.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/boost.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/broken-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/bullet.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/drag-panes.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/drilldown.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/export-data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/funnel.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/histogram.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/item-series.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/keyboard-navigation.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/no-data-to-display.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/offline-exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/oldie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/overlapping-datalabels.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/parallel-coordinates.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/pareto.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/pattern-fill.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/sankey.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/screen-reader.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/series-label.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/solid-gauge.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/static-scale.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/streamgraph.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/sunburst.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/tilemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/treemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/variable-pie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/variwide.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/vector.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/windbarb.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/wordcloud.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/modules/xrange.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-3d/Axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-3d/Chart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-3d/Column.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-3d/Globals.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-3d/Intro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-3d/Math.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-3d/Pie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-3d/SVGRenderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-3d/Scatter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-3d/Series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-3d/VMLRenderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-gantt/gantt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-gantt/grid-axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-map/ColorAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-map/ColorSeriesMixin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-map/GeoJSON.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-map/HeatmapIntro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-map/HeatmapSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-map/Intro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-map/IntroMapModule.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-map/Map.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-map/MapAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-map/MapBubbleSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-map/MapLineSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-map/MapNavigation.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-map/MapPointSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-map/MapPointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-map/MapSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-more/AreaRangeSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-more/AreaSplineRangeSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-more/BoxPlotSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-more/BubbleSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-more/ColumnRangeSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-more/ErrorBarSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-more/GaugeSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-more/Intro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-more/Pane.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-more/Polar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-more/PolygonSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-more/RadialAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts-more/WaterfallSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/AreaSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/AreaSplineSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/BarSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/CandlestickSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Chart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Color.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/ColumnSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/DataGrouping.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/DataLabels.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/DateTimeAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Dynamics.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/FlagsSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Globals.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Html.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Interaction.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Legend.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/LogarithmicAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/MSPointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Navigator.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/OHLCSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Options.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/OrdinalAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/PieSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/PlotBandSeries.experimental.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/PlotLineOrBand.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Point.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Pointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/RangeSelector.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Responsive.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/ScatterSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/ScrollablePlotArea.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Scrollbar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/SplineSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Stacking.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/StockChart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/SvgRenderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Tick.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Time.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Tooltip.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/TouchPointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/parts/Utilities.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/supplemental.docs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/themes/avocado.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/themes/dark-blue.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/themes/dark-green.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/themes/dark-unica.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/themes/gray.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/themes/grid-light.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/themes/grid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/themes/sand-signika.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/themes/skies.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/es-modules/themes/sunset.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/highcharts-3d.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/highcharts-3d.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/highcharts-3d.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/highcharts-more.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/highcharts-more.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/highcharts-more.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/highcharts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/highcharts.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/highcharts.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/error.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/highcharts-3d.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/highcharts-more.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/highcharts.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/accessibility.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/annotations.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/boost-canvas.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/boost.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/broken-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/bullet.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/drag-panes.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/drilldown.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/export-data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/funnel.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/gantt.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/grid-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/heatmap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/histogram-bellcurve.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/item-series.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/no-data-to-display.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/offline-exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/oldie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/overlapping-datalabels.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/parallel-coordinates.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/pareto.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/pattern-fill.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/sankey.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/series-label.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/solid-gauge.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/static-scale.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/stock.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/streamgraph.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/sunburst.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/tilemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/treemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/variable-pie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/variwide.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/vector.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/windbarb.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/wordcloud.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/modules/xrange.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/themes/avocado.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/themes/avocado.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/themes/dark-blue.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/themes/dark-green.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/themes/dark-unica.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/themes/gray.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/themes/grid-light.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/themes/grid.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/themes/sand-signika.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/themes/skies.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/themes/sunset.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/masters/themes/sunset.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/mixins/ajax.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/mixins/centered-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/mixins/derived-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/mixins/draw-point.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/mixins/on-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/mixins/polygon.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/mixins/tree-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/a11y-i18n.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/annotations.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/bellcurve.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/boost-canvas.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/boost.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/broken-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/bullet.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/drag-panes.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/drilldown.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/export-data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/funnel.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/histogram.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/item-series.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/keyboard-navigation.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/no-data-to-display.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/offline-exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/oldie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/overlapping-datalabels.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/parallel-coordinates.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/pareto.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/pattern-fill.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/sankey.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/screen-reader.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/series-label.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/solid-gauge.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/static-scale.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/streamgraph.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/sunburst.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/tilemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/treemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/variable-pie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/variwide.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/vector.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/windbarb.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/wordcloud.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/modules/xrange.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-3d/Axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-3d/Chart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-3d/Column.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-3d/Globals.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-3d/Intro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-3d/Math.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-3d/Pie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-3d/SVGRenderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-3d/Scatter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-3d/Series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-3d/VMLRenderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-gantt/gantt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-gantt/grid-axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-map/ColorAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-map/ColorSeriesMixin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-map/GeoJSON.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-map/HeatmapIntro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-map/HeatmapSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-map/Intro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-map/IntroMapModule.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-map/Map.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-map/MapAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-map/MapBubbleSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-map/MapLineSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-map/MapNavigation.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-map/MapPointSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-map/MapPointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-map/MapSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-more/AreaRangeSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-more/AreaSplineRangeSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-more/BoxPlotSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-more/BubbleSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-more/ColumnRangeSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-more/ErrorBarSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-more/GaugeSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-more/Intro.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-more/Pane.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-more/Polar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-more/PolygonSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-more/RadialAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts-more/WaterfallSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/AreaSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/AreaSplineSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/BarSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/CandlestickSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Chart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Color.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/ColumnSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/DataGrouping.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/DataLabels.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/DateTimeAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Dynamics.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/FlagsSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Globals.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Html.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Interaction.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Legend.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/LogarithmicAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/MSPointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Navigator.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/OHLCSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Options.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/OrdinalAxis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/PieSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/PlotBandSeries.experimental.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/PlotLineOrBand.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Point.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Pointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/RangeSelector.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Responsive.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/ScatterSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/ScrollablePlotArea.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Scrollbar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/SplineSeries.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Stacking.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/StockChart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/SvgRenderer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Tick.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Time.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Tooltip.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/TouchPointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/parts/Utilities.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/supplemental.docs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/themes/avocado.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/themes/dark-blue.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/themes/dark-green.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/themes/dark-unica.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/themes/gray.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/themes/grid-light.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/themes/grid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/themes/sand-signika.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/themes/skies.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/es-modules/themes/sunset.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/highcharts-3d.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/highcharts-3d.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/highcharts-3d.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/highcharts-more.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/highcharts-more.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/highcharts-more.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/highcharts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/highcharts.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/highcharts.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/accessibility.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/accessibility.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/accessibility.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/annotations.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/annotations.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/annotations.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/boost-canvas.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/boost-canvas.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/boost-canvas.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/boost.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/boost.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/boost.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/broken-axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/broken-axis.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/broken-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/bullet.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/bullet.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/bullet.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/data.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/drag-panes.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/drag-panes.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/drag-panes.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/drilldown.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/drilldown.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/drilldown.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/export-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/export-data.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/export-data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/exporting.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/exporting.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/funnel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/funnel.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/funnel.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/gantt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/gantt.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/gantt.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/grid-axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/grid-axis.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/grid-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/heatmap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/heatmap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/heatmap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/histogram-bellcurve.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/histogram-bellcurve.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/histogram-bellcurve.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/item-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/item-series.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/item-series.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/no-data-to-display.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/no-data-to-display.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/no-data-to-display.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/offline-exporting.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/offline-exporting.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/offline-exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/oldie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/oldie.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/oldie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/overlapping-datalabels.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/overlapping-datalabels.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/overlapping-datalabels.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/parallel-coordinates.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/parallel-coordinates.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/parallel-coordinates.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/pareto.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/pareto.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/pareto.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/pattern-fill.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/pattern-fill.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/pattern-fill.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/sankey.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/sankey.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/sankey.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/series-label.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/series-label.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/series-label.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/solid-gauge.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/solid-gauge.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/solid-gauge.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/static-scale.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/static-scale.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/static-scale.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/stock.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/stock.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/stock.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/streamgraph.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/streamgraph.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/streamgraph.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/sunburst.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/sunburst.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/sunburst.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/tilemap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/tilemap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/tilemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/treemap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/treemap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/treemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/variable-pie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/variable-pie.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/variable-pie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/variwide.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/variwide.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/variwide.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/vector.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/vector.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/vector.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/windbarb.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/windbarb.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/windbarb.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/wordcloud.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/wordcloud.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/wordcloud.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/xrange.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/xrange.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/modules/xrange.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/avocado.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/avocado.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/avocado.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/dark-blue.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/dark-blue.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/dark-blue.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/dark-green.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/dark-green.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/dark-green.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/dark-unica.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/dark-unica.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/dark-unica.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/gray.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/gray.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/gray.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/grid-light.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/grid-light.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/grid-light.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/grid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/grid.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/grid.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/sand-signika.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/sand-signika.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/sand-signika.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/skies.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/skies.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/skies.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/sunset.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/sunset.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/js/themes/sunset.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/lib/canvg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/lib/canvg.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/lib/jspdf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/lib/jspdf.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/lib/rgbcolor.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/lib/rgbcolor.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/lib/svg2pdf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/lib/svg2pdf.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/accessibility.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/accessibility.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/accessibility.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/annotations.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/annotations.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/annotations.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/boost-canvas.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/boost-canvas.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/boost-canvas.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/boost.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/boost.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/boost.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/broken-axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/broken-axis.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/broken-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/bullet.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/bullet.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/bullet.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/data.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/drag-panes.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/drag-panes.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/drag-panes.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/drilldown.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/drilldown.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/drilldown.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/export-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/export-data.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/export-data.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/exporting.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/exporting.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/funnel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/funnel.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/funnel.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/gantt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/gantt.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/gantt.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/grid-axis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/grid-axis.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/grid-axis.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/heatmap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/heatmap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/heatmap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/histogram-bellcurve.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/histogram-bellcurve.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/histogram-bellcurve.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/item-series.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/item-series.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/item-series.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/no-data-to-display.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/no-data-to-display.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/no-data-to-display.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/offline-exporting.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/offline-exporting.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/offline-exporting.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/oldie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/oldie.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/oldie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/overlapping-datalabels.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/overlapping-datalabels.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/overlapping-datalabels.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/parallel-coordinates.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/parallel-coordinates.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/parallel-coordinates.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/pareto.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/pareto.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/pareto.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/pattern-fill.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/pattern-fill.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/pattern-fill.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/sankey.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/sankey.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/sankey.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/series-label.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/series-label.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/series-label.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/solid-gauge.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/solid-gauge.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/solid-gauge.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/static-scale.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/static-scale.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/static-scale.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/stock.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/stock.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/stock.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/streamgraph.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/streamgraph.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/streamgraph.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/sunburst.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/sunburst.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/sunburst.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/tilemap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/tilemap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/tilemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/treemap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/treemap.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/treemap.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/variable-pie.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/variable-pie.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/variable-pie.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/variwide.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/variwide.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/variwide.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/vector.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/vector.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/vector.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/windbarb.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/windbarb.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/windbarb.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/wordcloud.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/wordcloud.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/wordcloud.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/xrange.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/xrange.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/modules/xrange.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/readme.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/avocado.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/avocado.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/avocado.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/dark-blue.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/dark-blue.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/dark-blue.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/dark-green.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/dark-green.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/dark-green.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/dark-unica.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/dark-unica.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/dark-unica.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/gray.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/gray.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/gray.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/grid-light.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/grid-light.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/grid-light.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/grid.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/grid.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/grid.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/sand-signika.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/sand-signika.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/sand-signika.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/skies.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/skies.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/skies.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/sunset.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/sunset.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/charts/code/themes/sunset.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/datapicker/cal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/datapicker/calendarStyle.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/favico.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/Skid10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/ChartController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/ControllerTrait.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/PageController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Controller/TableController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Entity/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Entity/DatePeriod.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Entity/ParametersForChart.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Entity/Skid10.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Exception/IncorrectDatePeriodException.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Kernel.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Migrations/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Repository/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Repository/ParametersForChartRepository.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Repository/Skid10Repository.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/symfony.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/base.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/charts/charts.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/charts/inputDate.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/sidebar.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/tables/baseTable.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/tables/skid.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/translations/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/viewCharts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/viewCharts.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/Skid10Repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/Skid10Repository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/Skid9Repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/Skid9Repository.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ChartController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/ChartController.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/tables/Skid9.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="352">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableController.php" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/TableController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="126">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Repository/Skid10Repository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="174" column="48" selection-start-line="174" selection-start-column="31" selection-end-line="174" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Repository/Skid9Repository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="199" column="43" selection-start-line="199" selection-start-column="43" selection-end-line="199" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/tables/baseTable.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-462" />
           </provider>
         </entry>
       </file>
@@ -858,6 +80,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Controller/TableController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/ChartController.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Skid10Repository.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Skid9Repository.php" />
       </list>
     </option>
   </component>
@@ -869,13 +94,22 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/public/base/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="PhpDebugGeneral" xdebug_debug_port="9001" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="d371cc0b-2207-48f8-8027-acfb65939ccf" name="SymfonyWebServer" port="8000" />
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/fig/link-util" />
       <path value="$PROJECT_DIR$/vendor/psr/cache" />
@@ -970,26 +204,19 @@
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="24" />
     <option name="width" value="960" />
     <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -999,31 +226,31 @@
           <expand>
             <path>
               <item name="viewCharts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="viewCharts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="viewCharts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="viewCharts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="viewCharts" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="viewCharts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="viewCharts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="viewCharts" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="viewCharts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../dd" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1038,10 +265,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="charts" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="SymfonyWebServer" />
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+    <configuration name="charts" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="SymfonyWebServer">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1054,36 +280,38 @@
       <option name="presentableId" value="Default" />
       <updated>1531915225916</updated>
       <workItem from="1531915227326" duration="715000" />
+      <workItem from="1572421872056" duration="4272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="715000" />
+    <option name="totallyTimeSpent" value="4987000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1922" height="1033" extended-state="6" />
+    <frame x="-1" y="27" width="1922" height="1030" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1670224" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.50213444" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15154749" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15060908" sideWeight="0.4967983" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.49786553" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8593577" sideWeight="0.8276414" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24419889" sideWeight="0.49786323" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1915836" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16862327" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4967983" weight="0.15060908" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49786323" weight="0.24419889" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50213444" side_tool="true" weight="0.32890365" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49786553" weight="0.32890365" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.8276414" visible="true" weight="0.3107658" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" weight="0.32963374" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.1915836" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.15154749" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1092,34 +320,62 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/index.php" />
+    <entry file="file://$PROJECT_DIR$/src/Controller/ChartController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="308">
+          <caret line="42" column="99" selection-start-line="42" selection-start-column="89" selection-end-line="42" selection-end-column="99" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ChartController.php">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/ControllerTrait.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="197">
+          <caret line="218" column="23" selection-start-line="218" selection-start-column="23" selection-end-line="218" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/base/mainPage.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/tables/baseTable.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/tables/Skid9.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Skid10Repository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="174" column="48" selection-start-line="174" selection-start-column="31" selection-end-line="174" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/TableController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="41" column="5" lean-forward="false" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="126">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Skid9Repository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="199" column="43" selection-start-line="199" selection-start-column="43" selection-end-line="199" selection-end-column="43" />
         </state>
       </provider>
     </entry>
