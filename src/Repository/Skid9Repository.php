@@ -225,7 +225,7 @@ class Skid9Repository extends ServiceEntityRepository
             $skid9->setB2(random_int(0,600));
             $skid9->setB3(random_int(0,600));
             $skid9->setSpeed(random_int(0,700));
-            $skid9->setResponse('');
+            $skid9->setResponse('#');
         }
     }
 }
