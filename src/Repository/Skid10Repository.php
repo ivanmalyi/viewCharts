@@ -93,7 +93,8 @@ class Skid10Repository extends ServiceEntityRepository
             ->getQuery()
             ->getOneOrNullResult();
 
-        $this->prepareDataForTable($queryBuilder);
+        //$this->prepareDataForTable($queryBuilder);
+        $this->prepareFakeDataForTable($queryBuilder);
 
         return $queryBuilder;
     }
@@ -162,6 +163,22 @@ class Skid10Repository extends ServiceEntityRepository
             $skid10->setVakuum(0);
             $skid10->setZad(0);
             $skid10->setZadTSirop(0);
+            $skid10->setResponse('');
+        }
+    }
+
+    private function prepareFakeDataForTable(Skid10 $skid10)
+    {
+        $interval  = time() - $skid10->getDate()->getTimestamp();
+
+        if ($interval > 60) {
+            $skid10->setPSirop(random_int(0,300));
+            $skid10->setSpeed(random_int(0,500));
+            $skid10->setTSirop(random_int(0,900));
+            $skid10->setTVar(random_int(0,1200));
+            $skid10->setVakuum(-1);
+            $skid10->setZad(andom_int(0,1200));
+            $skid10->setZadTSirop(andom_int(0,1200));
             $skid10->setResponse('');
         }
     }

@@ -91,7 +91,8 @@ class Skid9Repository extends ServiceEntityRepository
             ->getQuery()
             ->getOneOrNullResult();
 
-        $this->prepareDataForTable($queryBuilder);
+        $this->prepareFakeDataForTable($queryBuilder);
+        //$this->prepareDataForTable($queryBuilder);
 
         return $queryBuilder;
     }
@@ -204,6 +205,26 @@ class Skid9Repository extends ServiceEntityRepository
             $skid9->setB2(0);
             $skid9->setB3(0);
             $skid9->setSpeed(0);
+            $skid9->setResponse('');
+        }
+    }
+
+    private function prepareFakeDataForTable(Skid9 $skid9)
+    {
+        $interval = time() - $skid9->getDate()->getTimestamp();
+
+        if ($interval > 60) {
+            $skid9->setK1(random_int(0,700));
+            $skid9->setK2(random_int(0,700));
+            $skid9->setK3(random_int(0,700));
+            $skid9->setK4(random_int(0,700));
+            $skid9->setK5(random_int(0,700));
+            $skid9->setTVar(random_int(0,1100));
+            $skid9->setVesVar(random_int(0,1600));
+            $skid9->setB1(random_int(0,600));
+            $skid9->setB2(random_int(0,600));
+            $skid9->setB3(random_int(0,600));
+            $skid9->setSpeed(random_int(0,700));
             $skid9->setResponse('');
         }
     }
