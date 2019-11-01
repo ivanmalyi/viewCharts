@@ -33,8 +33,8 @@ class ChartController extends Controller
             $endTime = $request->query->get('endTime');
 
             if ($startTime == null or $endTime == null) {
-                $startTime = \DateTime::createFromFormat('d-m-y H:i:s', '2018-08-23 14:20:00')->format('d-m-y H:i:s');
-                $endTime = \DateTime::createFromFormat('d-m-y H:i:s','2018-08-23 15:20:00')->format('d-m-y H:i:s');
+                $startTime = \DateTime::createFromFormat('Y-m-d H:i:s', '2018-08-23 14:20:00')->format('d-m-y H:i:s');
+                $endTime = \DateTime::createFromFormat('Y-m-d H:i:s','2018-08-23 15:20:00')->format('d-m-y H:i:s');
         } else {
                 $startTime =  \DateTime::createFromFormat('d-m-y H:i:s',$startTime)->format('d-m-y H:i:s');
                 $endTime = \DateTime::createFromFormat('d-m-y H:i:s',$endTime)->format('d-m-y H:i:s');
